@@ -25,11 +25,11 @@ This PowerShell script retrieves account lockout, password change, and password 
 
 ## Clone the repository to your local machine:
 ```powershell
-git clone https://github.com/YourGitHubUsername/AD_EventLog_Scraper.git
+git clone https://github.com/YourGitHubUsername/AD_EventLog_Scraper-Password.git
 ```
 
 ## How to Run
 1. Run via elevated powershell in a DC:
 ```powershell
-.\AD_EventLog_Scraper.ps1
+.\AD_EventLog_Scraper-Password.ps1
 ```
