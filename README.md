@@ -16,8 +16,20 @@ This PowerShell script retrieves account lockout, password change, and password 
 - PowerShell with the **Active Directory** module installed
 - Administrative privileges to run the script
 
+
 ## How to Install
 
 1. Ensure that the **Active Directory** module is installed. If it's not, run the following command to install it:
    ```powershell
    Install-WindowsFeature -Name "RSAT-AD-PowerShell"
+
+## Clone the repository to your local machine:
+```powershell
+git clone https://github.com/YourGitHubUsername/AD_EventLog_Scraper.git
+```
+
+## How to Run
+1. Run via elevated powershell in a DC:
+```powershell
+.\AD_EventLog_Scraper.ps1
+```
